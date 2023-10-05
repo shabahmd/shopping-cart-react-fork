@@ -22,5 +22,17 @@ function App() {
     </div>
   );
 }
+import React, { useState } from "react";
+import Axios from "axios";
+import styled from "styled-components";
+import Dialog from "@material-ui/core/Dialog";
+import DialogContent from "@material-ui/core/DialogContent";
+import DialogTitle from "@material-ui/core/DialogTitle";
+import DialogActions from "@material-ui/core/DialogActions";
+
+const APP_ID = "a52b4d43";
+const APP_KEY = "e0e5c667605f5e91d8275c973531b80a";
+
+
 
 export default App;
